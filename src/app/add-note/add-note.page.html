@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Add Note</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-label position="floating">Descripcion</ion-label>
+  <ion-input #input> </ion-input>
+
+  <ion-button expand="block" color="primary" (click)="createNote(input)">Create</ion-button>
+
+  <ion-button expand="block" color="primary">Cancel</ion-button>
+</ion-content>
